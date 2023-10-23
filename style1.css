@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    background: black;
+    display: flex;
+
+}
+.logo
+{
+    font-size: 40px;
+    margin-left: 10%;
+    color: white;
+    
+}
+.logo span
+{
+    font-size: 50px;
+    color: red;
+    font-family: 'Merriweather', serif;
+}
+.navbar_link
+{
+    display: flex;
+    margin-left: 50%;
+    padding: 20px;
+}
+.navbar_link li{
+    list-style: none;
+}
+.navbar_link li a
+{
+    text-decoration: none;
+    /*c par rapport a l espacement d une list ici c mieux d utliser les pixels que les pourcentages*/
+    margin-left: 20px;
+    color: white;
+    
+
+}
+/*en mettant hover avec color = yellow ca permet une fois que le cirseur se positionne sur un element de a
+ qu il puisse changer de couleur*/
+.navbar_link li a:hover
+{
+    color: yellow;
+}
+.home_container
+{
+    /*ca nous permet de descendre un ensemble d element*/
+    margin-top: 50px;
+}
+.home_icon
+{
+    /*display: flex met l ensemble des logos sur la meme ligne en taille egale*/
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 10%;
+    
+}
+.home_icon img
+{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    /*ca permet lespacement des icones*/
+    margin-left: 20px;
+    /*ca permet de d avoir l aforme rond*/
+    border-radius: 50%;
+}
+.home_profil
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 70%;
+    margin-top: -120px;
+}
+.home_description
+{
+    margin-left: 20%;
+    font-size: 50px;
+    /*ca permet de remoter un la description*/
+    margin-top: -10%
+}
+.home_text
+{
+    margin-left: 20%;
+}
+.home_btn
+{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.bnt-1
+{
+    /*longeur*/
+    width: 120px;
+    /*hauteur*/
+    height: 40px;
+    font-style: 20px;
+    /*pour enlever l abordure*/
+    border: none;
+    color: white;
+    background-color:grey;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.bnt-1:hover
+{
+    background-color: cornflowerblue;
+}
+.bnt-2
+{
+    /*longeur*/
+    width: 120px;
+    /*hauteur*/
+    height: 40px;
+    font-style: 20px;
+    /*pour enlever l abordure*/
+    border: none;
+    color: white;
+    background-color:black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.bnt-2:hover
+{
+    background-color:greenyellow;
+    
+}
